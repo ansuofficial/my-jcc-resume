@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 900px;
+    margin: 80px auto;
+}
+
+main {
+    display: flex;
+    gap: 20px
+}
+
+.profile-photo {
+    width: 300px;
+}
+
+.box {
+    border: 2px solid #010190;
+     width: 303px;
+     margin-bottom: 20px; 
+    /* padding: 20px; * */
+    /* height: 600px; */
+}
+
+.about-description {
+    padding: 20px;
+}
+
+.first-box {
+    padding: 0;
+}
+
+h1, h2 {
+    color: #24249f;
+}
+
+p, ul {
+  color: #010190;
+}
+
+
+/*  */
+
+.section-one-second {
+    height: 177px;
+}
+
+.section-two-first, .section-two-second {
+    /* background-color: red; */
+    height: 472px;
+}
+
+.section-three-first {
+    height: 200px;
+}
+
+.section-three-second {
+    height: 250px;
+} 
+
+.section-three-third {
+    height: 475px;
+} 
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #010190;
+
+    padding: 7px;
+}
+
+.title-container img {
+    width: 30px;
+}
+
+.section-one-second {
+    padding: 0;
+}
+
+.box-description {
+    padding: 20px;
+}
+
+.title-dot {
+    width: 7px;
+    height: 7px;
+    background-color: #010190;
+}   
+
+.dot-container {
+    display: flex;
+    gap: 5px
+}
+
+
+/* Basic Responsive Design */
+
+@media screen and (max-width: 840px) {
+    main {
+        display: block;
+        gap: 10px
+    }
+}
+
+
